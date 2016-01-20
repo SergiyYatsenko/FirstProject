@@ -1,3 +1,1 @@
-Поздравляю тебя, Шарик, ты - БАЛБЕС!
-Я вот сейчас в него кочергу брошу, чтобы не обзывался!
-А пох
+This project aim is to create parser for some news sites.
