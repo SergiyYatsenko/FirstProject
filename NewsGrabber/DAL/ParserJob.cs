@@ -1,6 +1,6 @@
 ﻿using Quartz;
 
-namespace ScheduledParser.DAL
+namespace NewsGrabber.DAL
 {
     public class ParserJob : IJob
     {

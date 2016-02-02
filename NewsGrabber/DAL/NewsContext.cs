@@ -1,7 +1,7 @@
 ﻿using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 
-namespace ScheduledParser.DAL
+namespace NewsGrabber.DAL
 {
     public class NewsContext : DbContext
     {
@@ -14,6 +14,8 @@ namespace ScheduledParser.DAL
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            //base.OnModelCreating(modelBuilder);
+
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         }
     }

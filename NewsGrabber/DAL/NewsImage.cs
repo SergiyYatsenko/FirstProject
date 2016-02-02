@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ScheduledParser.DAL
+namespace NewsGrabber.DAL
 {
     public class NewsImage
     {

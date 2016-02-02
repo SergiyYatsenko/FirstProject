@@ -5,7 +5,7 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
 
-namespace ScheduledParser.DAL
+namespace NewsGrabber.DAL
 {
     public class NewsInitializer : DropCreateDatabaseIfModelChanges<NewsContext>
     {

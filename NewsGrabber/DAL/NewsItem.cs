@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Web.Mvc;
 
-namespace ScheduledParser.DAL
+namespace NewsGrabber.DAL
 {
     public class NewsItem
     {
